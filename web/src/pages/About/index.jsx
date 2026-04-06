@@ -61,33 +61,33 @@ const About = () => {
 
   const customDescription = (
     <div style={{ textAlign: 'center' }}>
-      <p>{t('可在设置页面设置关于内容，支持 HTML & Markdown')}</p>
-      {t('New API项目仓库地址：')}
+      <p>{t('TokenGo — AI API 中转站，为开发者提供稳定、低延迟的 AI 模型 API 服务。')}</p>
+      {t('项目基于 New API 开源项目：')}
       <a
-        href='https://github.com/QuantumNous/new-api'
+        href='https://github.com/Calcium-Ion/new-api'
         target='_blank'
         rel='noopener noreferrer'
         className='!text-semi-color-primary'
       >
-        https://github.com/QuantumNous/new-api
+        https://github.com/Calcium-Ion/new-api
       </a>
       <p>
         <a
-          href='https://github.com/QuantumNous/new-api'
+          href='https://tokengo.xyz'
           target='_blank'
           rel='noopener noreferrer'
           className='!text-semi-color-primary'
         >
-          NewAPI
+          TokenGo
         </a>{' '}
         {t('© {{currentYear}}', { currentYear })}{' '}
         <a
-          href='https://github.com/QuantumNous'
+          href='https://github.com/blank-knight'
           target='_blank'
           rel='noopener noreferrer'
           className='!text-semi-color-primary'
         >
-          QuantumNous
+          blank-knight
         </a>{' '}
         {t('| 基于')}{' '}
         <a
